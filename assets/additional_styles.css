@@ -1,9 +1,65 @@
 /* Additional styles */
-
-body {
-  font-family: "Open Sans";
+.navbar a {
+    color: rgb(0,126,229) !important;
 }
 
+.navbar {
+  background-color: white;
+  background-size: cover;
+}
+
+h1, h2 {
+    font-weight: 300;
+    line-height: 125%;
+}
+
+.footer {
+  margin-left: -15px;
+
+}
+p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 175%;
+}
+
+.padding-inside-bottom-lg {
+    padding-bottom: 150px;
+}
+.padding-inside-top-md {
+    padding-top: 50px;
+}
+
+.get-started-now {
+  background-color: white;
+  margin-left: -70px;
+  margin-right: -70px;
+
+}
+
+footer {
+  background-color: rgb(251, 251, 251);
+
+}
+footer h4 {
+    color: rgb(153,153,153);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background-color: rgb(251, 251, 251);
+}
+
+footer li {
+    color: rgb(119,119,119);
+    margin-bottom: 10px;
+    background-color: rgb(251, 251, 251);
+  }
+
+body {
+        background-color: rgb(251, 251, 251);
+        color: rgb(68,68,68);
+        font-family: "Open Sans";
+    }
 /* My standard vertical spacing classes */
 
 .padding-inside-top-xs {
